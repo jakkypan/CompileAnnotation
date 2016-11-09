@@ -5,13 +5,13 @@
 ##项目结构
 * myandroidprocessor
 
-android library，需要依赖android库的d代码就在这里实现。将依赖myprocessor。
+    android library，需要依赖android库的d代码就在这里实现。将依赖myprocessor。
 * myprocessor
 
-java library，由于android中没有javax，所以需要建立一个java库，实现依赖于javax的部分。
+    java library，由于android中没有javax，所以需要建立一个java库，实现依赖于javax的部分。
 * myapp
 
-android app，它将depends myandroidprocessor来完成注解编程。
+    android app，它将depends myandroidprocessor来完成注解编程。
 
 ##使用方式
 ```java
